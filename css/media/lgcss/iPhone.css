@@ -1,0 +1,50 @@
+div.wrapper>div.iPhone{
+    width: 100%;
+    position: absolute;
+    top: 1330px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+div.wrapper>div.iPhone>div{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+div.wrapper>div.iPhone>div>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    color: black;
+}
+div.wrapper>div.iPhone>div>a>div.image,div.wrapper>div.iPhone>div>a>div.info,div.wrapper>div.iPhone>div>a>div.color{
+    padding: 30px;
+}
+div.wrapper>div.iPhone>div>a>div.image{
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.image>img{
+  width: 150px;
+  height: 200px;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(1){
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(2){
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(3){
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.color{
+    text-align: center;
+}

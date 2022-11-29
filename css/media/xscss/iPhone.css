@@ -1,0 +1,57 @@
+div.wrapper>div.iPhone{
+    width: 100%;
+    position: absolute;
+    top: 1330px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+div.wrapper>div.iPhone>div{
+    background-color: white;
+    width: 90px;
+    height: 240px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+div.wrapper>div.iPhone>div>a{
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    color: black;
+}
+div.wrapper>div.iPhone>div>a>div.image,div.wrapper>div.iPhone>div>a>div.info,div.wrapper>div.iPhone>div>a>div.color{
+    padding: 8px;
+}
+div.wrapper>div.iPhone>div>a>div.image{
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.image>img{
+  width: 70px;
+  height: 100px;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(1){
+    color: red;
+    font-size: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(2){
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.info>p:nth-of-type(3){
+    text-align: center;
+    font-size: 10px;
+}
+div.wrapper>div.iPhone>div>a>div.color{
+    text-align: center;
+}
+div.wrapper>div.iPhone>div>a>div.color>img{
+    width: 60px;
+}
+div.wrapper>div.iPhone>div>a>div.color>img.third{
+    width: 30px;
+}

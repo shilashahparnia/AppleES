@@ -1,0 +1,27 @@
+div.wrapper>div.days{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+div.wrapper>div.days>div{
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+}
+div.wrapper>div.days>div>P:nth-of-type(1){
+    color: #E30000;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+div.wrapper>div.days>div>P:nth-of-type(2){
+    font-weight: bold;
+    font-size: 80px;
+}
